@@ -9,13 +9,14 @@ springcloud-Edgware模块化版本的demo，
 
 项目结构<br />
   &nbsp;公共代码<br />
+  &nbsp;本地配置文件：hsj-common\hsj-common-config-server\src\main\resources\hsjconfig <br />
   &nbsp;hsj-common<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-config-server<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-entity<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-entity-generator<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-eureka-server<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-util<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-parent<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-config-server    #配置中心 <br />   
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-entity           #mybatis-plus生成需要的实体和mapper和服务 <br />           
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-entity-generator #mybatis-plus实体生成器 <br />
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-eureka-server    #eureka 服务发现，HA配置master和slave <br />
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-util             #util工具包 <br />
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-parent           #m聚合父类 <br />
  
   &nbsp;服务提供者<br />
   &nbsp;hsj-service<br />
