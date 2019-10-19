@@ -32,6 +32,10 @@
 			<artifactId>mybatis-plus</artifactId>
 		</dependency>
 		<!-- 第三方依赖 -->
+			<dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+            </dependency>
 	</dependencies>
 	<build>
 		<plugins>
