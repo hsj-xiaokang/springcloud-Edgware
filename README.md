@@ -14,7 +14,8 @@ springcloud-Edgware模块化版本的demo，
      <br /> &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-config-server&nbsp;&nbsp;&nbsp;&nbsp;----配置中心   
      <br /> &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-entity&nbsp;&nbsp;&nbsp;&nbsp;----mybatis-plus生成需要的实体和mapper和服务         
      <br /> &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-entity-generator&nbsp;&nbsp;&nbsp;&nbsp;----mybatis-plus实体生成器
-     <br /> &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-eureka-server&nbsp;&nbsp;&nbsp;&nbsp;----eureka 服务发现，HA配置master和slave
+     <br /> &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-eureka-server&nbsp;&nbsp;&nbsp;&nbsp;----eureka 服务发现，HA配置master
+     <br /> &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-eureka-server-slave&nbsp;&nbsp;&nbsp;&nbsp;----eureka 服务发现，HA配置slave
      <br /> &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-util&nbsp;&nbsp;&nbsp;&nbsp;----util工具包
      <br /> &nbsp;&nbsp;&nbsp;&nbsp;hsj-common-parent&nbsp;&nbsp;&nbsp;&nbsp;----聚合父类
  
