@@ -1,6 +1,5 @@
 server:
   port: 8761
-  # port: 8762
 encrypt:
   key: hsj
 spring:
@@ -8,7 +7,6 @@ spring:
     name: hsj-common-eureka-server
   profiles:
     active: dev,master
-    # active: dev,slave
 eureka:
   instance:
     prefer-ip-address: true
