@@ -1,0 +1,13 @@
+#开发环境
+logging:
+  level:
+    org.springframework.boot: DEBUG
+    org.springframework.cloud: DEBUG
+eureka:
+  server:
+    enable-self-preservation: false
+  instance:
+    master:
+      hostname: 127.0.0.1
+    slave:
+      hostname: 127.0.0.1

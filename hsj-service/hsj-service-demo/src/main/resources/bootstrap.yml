@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: hsj-service-demo
+  profiles:
+    active: dev
+  cloud:
+    inetutils:
+      preferred-networks:
+      - 127.0
+      ignored-interfaces:
+      - docker0
+      - veth.*
+      - VMware.*
+      - .*VM.*
+    config:
+      discovery:
+        enabled: true
+        service-id: hsj-common-config-server
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka

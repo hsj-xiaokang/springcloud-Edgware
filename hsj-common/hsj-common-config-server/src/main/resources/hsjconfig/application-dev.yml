@@ -1,0 +1,43 @@
+logging:
+  level:
+    root: INFO
+    cn.agrithings: TRACE
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3307/hsj?useSSL=false&allowMultiQueries=true&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: HSJissmart1
+    driverClassName: com.mysql.jdbc.Driver
+    initialSize: 0
+    minIdle: 0
+    maxActive: 8
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 64
+    filters: stat,wall
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    useGlobalDataSourceStat: true
+  session:
+    store-type: none  
+mybatis-plus:
+  mapper-locations:
+  - classpath*:/cn/hsj/common/mapper/*Mapper.xml
+  - classpath:/cn/hsj/service/*/mapper/*Mapper.xml
+  - classpath:/mapper/*Mapper.xml
+  typeAliasesPackage: cn.hsj.common.entity
+  global-config:
+    id-type: 1
+    field-strategy: 0
+    auto-set-db-type: true
+    db-column-underline: true
+    refresh-mapper: true
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false

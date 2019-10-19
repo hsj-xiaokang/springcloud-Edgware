@@ -1,0 +1,23 @@
+logging:
+  config: classpath:logback.xml
+server:
+  context-path: /hsj
+banner:
+  charset: UTF-8
+spring:
+  messages:
+    encoding: UTF-8
+  http:
+    encoding:
+      force: true
+      force-request: true
+      force-response: true
+      charset: UTF-8
+      enabled: true
+  jackson:
+    locale: zh_CN
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  aop:
+    auto: true
+    proxy-target-class: true

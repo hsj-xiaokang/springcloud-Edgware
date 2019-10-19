@@ -1,0 +1,5 @@
+#测试环境
+logging:
+  level:
+    org.springframework.boot: DEBUG
+    org.springframework.cloud: DEBUG
