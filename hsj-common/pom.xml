@@ -24,6 +24,7 @@
 				<module>hsj-common-entity</module>
 				<module>hsj-common-util</module>
 				<module>hsj-common-eureka-server</module>
+				<module>hsj-common-eureka-server-slave</module>
 				<module>hsj-common-config-server</module>
 			</modules>
 			<build>
