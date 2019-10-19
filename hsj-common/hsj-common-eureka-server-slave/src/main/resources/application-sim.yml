@@ -1,0 +1,13 @@
+#仿真环境
+logging:
+  level:
+    org.springframework.boot: INFO
+    org.springframework.cloud: INFO
+eureka:
+  server:
+    enable-self-preservation: true
+  instance:
+    master:
+      hostname: 127.0.0.1
+    slave:
+      hostname: 127.0.0.1
