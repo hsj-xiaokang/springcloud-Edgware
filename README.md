@@ -20,9 +20,9 @@ springcloud-Edgware模块化版本的demo，
  
   &nbsp;服务提供者<br />
   &nbsp;hsj-service<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-service-demo<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-service-parent<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-service-demo&nbsp;&nbsp;&nbsp;&nbsp;----服务提供者，包含调用mysql数据库操作，内网不暴露<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-service-parent&nbsp;&nbsp;&nbsp;&nbsp;----聚合父类<br />
   &nbsp;服务消费者<br />
   &nbsp;hsj-web<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-web-demo<br />
-     &nbsp;&nbsp;&nbsp;&nbsp;hsj-web-parent<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-web-demo&nbsp;&nbsp;&nbsp;&nbsp;----消费者，不含数据库mysql操作，暴露给外网<br />
+     &nbsp;&nbsp;&nbsp;&nbsp;hsj-web-parent&nbsp;&nbsp;&nbsp;&nbsp;----聚合父类<br />
