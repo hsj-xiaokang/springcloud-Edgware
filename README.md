@@ -1,0 +1,2 @@
+# springcloud-Edgware
+springcloud-Edgware模块化版本的demo，目前集成mybatis-plus，使用了springcloud-config本地配置文件方式，springcloud-eureka的HA高可用，springcloud-restTemplate+ribbon服务调用，springcloud-feignClient服务调用
